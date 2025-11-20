@@ -9,7 +9,7 @@
     dispatch('close');
   }
 
-  // Cerrar al pulsar tecla ESC
+  // Close on ESC key press
   function handleKeydown(e: KeyboardEvent) {
     if (e.key === 'Escape') close();
   }
