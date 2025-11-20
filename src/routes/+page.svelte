@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { getAllFerments } from '$lib/services/db';
-  // Solo importamos el icono del Lápiz para el botón de personalizar
+  // Only import the Pencil icon for the customize button
   import { Pencil } from 'lucide-svelte'; 
   
   // STATE MANAGEMENT
@@ -9,11 +9,11 @@
   let hasFerments = false; 
 
   onMount(async () => {
-    // COMPROBACIÓN REAL DE LA DB
-    // Esto mirará si tienes fermentos reales. Si los tienes, quitará la bienvenida.
+    // REAL DB CHECK
+    // This checks if real ferments exist. If so, it removes the welcome screen.
     const ferments = await getAllFerments();
     
-    // Simulamos un pequeño retraso estético para que no pegue un pantallazo
+    // Simulate a small aesthetic delay to prevent UI flickering
     setTimeout(() => {
       hasFerments = ferments.length > 0; 
       isLoading = false;
