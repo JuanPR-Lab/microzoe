@@ -90,4 +90,21 @@ The P2P (Peer-to-Peer) connection module.
 
 ### Navigation
 * **Top Level (Home):** Hamburger Menu (Slide-over) accessing: Manifesto, Laboratorium, ZoeRelay, Settings.
-* **Deep Levels:** The hamburger disappears and is replaced by a smart **Back Arrow** to facilitate quick
+* **Deep Levels:** The hamburger disappears and is replaced by a smart **Back Arrow** to facilitate quick navigation.
+
+---
+
+## 5. Project Status (Roadmap)
+
+- [x] **Phase 0:** Architecture definition and Visual Design.
+- [x] **Phase 1 (In Progress):** Offline MVP Development.
+    - [x] SvelteKit + Tailwind implementation.
+    - [x] Database Service (IndexedDB).
+    - [x] Laboratorium & Kanban Interface.
+- [ ] **Phase 2:** Batch Logic implementation (XState) and Local Notification system.
+- [ ] **Phase 3:** ZoeRelay integration and Nostr Synchronization.
+
+---
+
+**Repository:** [Link to GitHub]
+**Technical Documentation:** See `/docs` folder.
