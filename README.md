@@ -106,5 +106,5 @@ The P2P (Peer-to-Peer) connection module.
 
 ---
 
-**Repository:** [Link to GitHub]
+**Repository:** [https://github.com/JuanPR-Lab/microzoe.git]
 **Technical Documentation:** See `/docs` folder.
