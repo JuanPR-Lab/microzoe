@@ -20,6 +20,7 @@ export interface Ferment {
     status: 'active' | 'archived';
     _rawEvent?: NostrEvent; // Original signed event
 }
+```
 
 ### The Batch (Card)
 
@@ -35,6 +36,7 @@ export interface Batch {
     created_at: number;
     logs: BatchLog[];    // History reconstruction
 }
+```
 
 ---
 
