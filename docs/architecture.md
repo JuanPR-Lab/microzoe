@@ -1,4 +1,4 @@
-# System Architecture
+# 🏗️ System Architecture
 
 This document details the technical decisions behind Microzoe's "Offline-First" and "Nostr-Native" architecture.
 

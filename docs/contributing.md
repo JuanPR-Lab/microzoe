@@ -50,4 +50,4 @@ Before you start, ensure you have the following installed:
 3.  Push to the branch (`git push origin feature/amazing-new-thing`).
 4.  Open a **Pull Request**.
 
-Happy Fermenting! 
+Happy Fermenting! 🦠
